@@ -1,0 +1,96 @@
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 35 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : RUNNING [OK]
+
+Overall Status : HEALTHY
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:23:34 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 35 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : RUNNING [OK]
+
+Overall Status : HEALTHY
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:23:48 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 35 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : RUNNING [OK]
+
+Overall Status : HEALTHY
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:23:50 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 36 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : DOWN [CRITICAL]
+
+Overall Status : CRITICAL
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:24:13 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 36 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 6% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : DOWN [CRITICAL]
+
+Overall Status : CRITICAL
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:24:20 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 37 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : RUNNING [OK]
+
+Overall Status : HEALTHY
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:25:59 UTC 2026
