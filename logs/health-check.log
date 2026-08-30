@@ -142,3 +142,19 @@ Overall Status : HEALTHY
        HEALTH CHECK COMPLETED
 ========================================
 Health check completed at Sun Aug 30 15:50:01 UTC 2026
+========================================
+       LINUX SERVER HEALTH REPORT
+========================================
+
+Hostname       : Neha
+Uptime         : up 1 hour, 6 minutes
+CPU Usage      : 0% [OK]
+Memory Usage   : 7% [OK]
+Disk Usage     : 1% [OK]
+Nginx          : RUNNING [OK]
+
+Overall Status : HEALTHY
+========================================
+       HEALTH CHECK COMPLETED
+========================================
+Health check completed at Sun Aug 30 15:55:01 UTC 2026
