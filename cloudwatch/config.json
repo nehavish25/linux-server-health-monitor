@@ -1,0 +1,67 @@
+{
+	"agent": {
+		"metrics_collection_interval": 60,
+		"run_as_user": "cwagent"
+	},
+	"logs": {
+		"logs_collected": {
+			"files": {
+				"collect_list": [
+					{
+						"file_path": "/home/ec2-user/linux-server-health-monitor/logs/health-check.log",
+						"log_group_class": "STANDARD",
+						"log_group_name": "/linux-server-health-monitor",
+						"log_stream_name": "{instance_id}",
+						"retention_in_days": 30
+					},
+					{
+						"file_path": "/home/ec2-user/linux-server-health-monitor/logs/auto-recovery.log",
+						"log_group_class": "STANDARD",
+						"log_group_name": "/linux-server-health-monitor/recovery",
+						"log_stream_name": "{instance_id}",
+						"retention_in_days": 30
+					}
+				]
+			}
+		}
+	},
+	"metrics": {
+		"aggregation_dimensions": [
+			[
+				"InstanceId"
+			]
+		],
+		"append_dimensions": {
+			"AutoScalingGroupName": "${aws:AutoScalingGroupName}",
+			"ImageId": "${aws:ImageId}",
+			"InstanceId": "${aws:InstanceId}",
+			"InstanceType": "${aws:InstanceType}"
+		},
+		"metrics_collected": {
+"cpu": {
+    "measurement": [
+        "cpu_usage_idle",
+        "cpu_usage_user",
+        "cpu_usage_system"
+    ],
+    "metrics_collection_interval": 60,
+    "totalcpu": true
+},
+			"disk": {
+				"measurement": [
+					"used_percent"
+				],
+				"metrics_collection_interval": 60,
+				"resources": [
+					"*"
+				]
+			},
+			"mem": {
+				"measurement": [
+					"mem_used_percent"
+				],
+				"metrics_collection_interval": 60
+			}
+		}
+	}
+}
